@@ -19,6 +19,7 @@
 
     .pricing-sec h3 {
         color: #fff;
+        margin-bottom: 20px;
     }
 
     .pricing-item {
@@ -29,6 +30,7 @@
         text-align: center;
         box-shadow: 0 0 15px #6e00ff;
         transition: transform 0.3s ease;
+        margin-bottom: 20px;
     }
 
     .pricing-item:hover {
@@ -38,6 +40,7 @@
     .pricing-header h4 {
         font-size: 1.5em;
         color: #fff;
+        margin-bottom: 10px;
     }
 
     .pricing-header .text-light {
@@ -123,6 +126,79 @@
     .col-md-3 {
         flex: 1;
         min-width: 250px;
+        max-width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .pricing-item {
+            padding: 15px;
+        }
+
+        .pricing-header h4 {
+            font-size: 1.2em;
+        }
+
+        .pricing-body .position-relative {
+            font-size: 60px;
+        }
+
+        .pricing-body .position-absolute {
+            font-size: 1.2rem;
+        }
+
+        .pricing-body p {
+            font-size: 0.8em;
+        }
+
+        .pricing-body ul li {
+            font-size: 0.8em;
+        }
+
+        .pricing-body a {
+            padding: 8px 16px;
+            font-size: 0.9em;
+        }
+
+        .pricing-header .popular {
+            width: 80px;
+            font-size: .5rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .pricing-sec {
+            padding: 10px;
+        }
+
+        .pricing-header h4 {
+            font-size: 1em;
+        }
+
+        .pricing-body .position-relative {
+            font-size: 50px;
+        }
+
+        .pricing-body .position-absolute {
+            font-size: 1rem;
+        }
+
+        .pricing-body p {
+            font-size: 0.7em;
+        }
+
+        .pricing-body ul li {
+            font-size: 0.7em;
+        }
+
+        .pricing-body a {
+            padding: 6px 12px;
+            font-size: 0.8em;
+        }
+
+        .pricing-header .popular {
+            width: 60px;
+            font-size: .4rem;
+        }
     }
 
 
